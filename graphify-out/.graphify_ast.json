@@ -1,0 +1,4723 @@
+{
+  "nodes": [
+    {
+      "id": "backend_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "Backend/__init__.py",
+      "source_location": null,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main",
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "Backend/main.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_recoveryrequest",
+      "label": "RecoveryRequest",
+      "file_type": "code",
+      "source_file": "Backend/main.py",
+      "source_location": "L59",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "basemodel",
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_recoveryresponse",
+      "label": "RecoveryResponse",
+      "file_type": "code",
+      "source_file": "Backend/main.py",
+      "source_location": "L68",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_load_skill",
+      "label": "load_skill()",
+      "file_type": "code",
+      "source_file": "Backend/main.py",
+      "source_location": "L78",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "get",
+      "label": "get",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_root",
+      "label": "root()",
+      "file_type": "code",
+      "source_file": "Backend/main.py",
+      "source_location": "L87",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_health",
+      "label": "health()",
+      "file_type": "code",
+      "source_file": "Backend/main.py",
+      "source_location": "L96",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_ollama_status",
+      "label": "ollama_status()",
+      "file_type": "code",
+      "source_file": "Backend/main.py",
+      "source_location": "L104",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "post",
+      "label": "post",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_ollama_test",
+      "label": "ollama_test()",
+      "file_type": "code",
+      "source_file": "Backend/main.py",
+      "source_location": "L114",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_create_recovery_plan",
+      "label": "create_recovery_plan()",
+      "file_type": "code",
+      "source_file": "Backend/main.py",
+      "source_location": "L130",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_rationale_79",
+      "label": "Load the reusable API recovery instructions.",
+      "file_type": "rationale",
+      "source_file": "Backend/main.py",
+      "source_location": "L79",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_ollama_client",
+      "label": "ollama_client.py",
+      "file_type": "code",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_ollama_client_ollamaconfigurationerror",
+      "label": "OllamaConfigurationError",
+      "file_type": "code",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L15",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "runtimeerror",
+      "label": "RuntimeError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_ollama_client_ollamarequesterror",
+      "label": "OllamaRequestError",
+      "file_type": "code",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L19",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_ollama_client_is_ollama_configured",
+      "label": "is_ollama_configured()",
+      "file_type": "code",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L23",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_ollama_client_request_chat",
+      "label": "_request_chat()",
+      "file_type": "code",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L27",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_ollama_client_generate_recovery_plan",
+      "label": "generate_recovery_plan()",
+      "file_type": "code",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L76",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_ollama_client_test_ollama_connection",
+      "label": "test_ollama_connection()",
+      "file_type": "code",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L119",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_ollama_client_rationale_16",
+      "label": "Raised when the Ollama Cloud credentials are not configured.",
+      "file_type": "rationale",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_ollama_client_rationale_20",
+      "label": "Raised when Ollama Cloud cannot complete a request.",
+      "file_type": "rationale",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_recovery",
+      "label": "recovery.py",
+      "file_type": "code",
+      "source_file": "Backend/recovery.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_recovery_simulate_recovery",
+      "label": "simulate_recovery()",
+      "file_type": "code",
+      "source_file": "Backend/recovery.py",
+      "source_location": "L20",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "failuretype",
+      "label": "FailureType",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackstrategy",
+      "label": "FallbackStrategy",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_recovery_rationale_26",
+      "label": "Simulate an API failure and recovery workflow. This is a deterministic demo. It…",
+      "file_type": "rationale",
+      "source_file": "Backend/recovery.py",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_private",
+      "label": "private",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_scripts",
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_scripts_dev",
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_scripts_build",
+      "label": "build",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_scripts_preview",
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_scripts_clean",
+      "label": "clean",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_scripts_lint",
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_dependencies",
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_dependencies_google_genai",
+      "label": "@google/genai",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_google_genai",
+      "label": "@google/genai",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_dependencies_tailwindcss_vite",
+      "label": "@tailwindcss/vite",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_tailwindcss_vite",
+      "label": "@tailwindcss/vite",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_dependencies_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_dependencies_lucide_react",
+      "label": "lucide-react",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_lucide_react",
+      "label": "lucide-react",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_dependencies_react",
+      "label": "react",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_react",
+      "label": "react",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_dependencies_react_dom",
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_react_dom",
+      "label": "react-dom",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_dependencies_vite",
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_vite",
+      "label": "vite",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_dependencies_express",
+      "label": "express",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_express",
+      "label": "express",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_dependencies_dotenv",
+      "label": "dotenv",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_dotenv",
+      "label": "dotenv",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_dependencies_motion",
+      "label": "motion",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_motion",
+      "label": "motion",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_devdependencies",
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_devdependencies_types_node",
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_types_node",
+      "label": "@types/node",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_devdependencies_types_react",
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_types_react",
+      "label": "@types/react",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_devdependencies_types_react_dom",
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_types_react_dom",
+      "label": "@types/react-dom",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_devdependencies_autoprefixer",
+      "label": "autoprefixer",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_autoprefixer",
+      "label": "autoprefixer",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_devdependencies_esbuild",
+      "label": "esbuild",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_esbuild",
+      "label": "esbuild",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_devdependencies_tailwindcss",
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_tailwindcss",
+      "label": "tailwindcss",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_devdependencies_tsx",
+      "label": "tsx",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L32",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_tsx",
+      "label": "tsx",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L32",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_devdependencies_typescript",
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_typescript",
+      "label": "typescript",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_package_devdependencies_types_express",
+      "label": "@types/express",
+      "file_type": "code",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_types_express",
+      "label": "@types/express",
+      "file_type": "concept",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_app",
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_app_default_config",
+      "label": "DEFAULT_CONFIG",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_app_api_failure_types",
+      "label": "API_FAILURE_TYPES",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L43",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_app_api_fallback_strategies",
+      "label": "API_FALLBACK_STRATEGIES",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L50",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_app_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L57",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api",
+      "label": "api.ts",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_apifailuretype",
+      "label": "ApiFailureType",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L3",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_apifallbackstrategy",
+      "label": "ApiFallbackStrategy",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_recoveryplanrequest",
+      "label": "RecoveryPlanRequest",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L15",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_recoverysimulationevent",
+      "label": "RecoverySimulationEvent",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L24",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_recoveryplanresponse",
+      "label": "RecoveryPlanResponse",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L32",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_ollamastatus",
+      "label": "OllamaStatus",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L47",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_ollamatestresult",
+      "label": "OllamaTestResult",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L54",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_fetchbackend",
+      "label": "fetchBackend()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L60",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_isrecoveryplanresponse",
+      "label": "isRecoveryPlanResponse()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L74",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_readapierror",
+      "label": "readApiError()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L125",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_getollamastatus",
+      "label": "getOllamaStatus()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L143",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_testollamaconnection",
+      "label": "testOllamaConnection()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L149",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_api_generaterecoveryplan",
+      "label": "generateRecoveryPlan()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L157",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_sidebar",
+      "label": "Sidebar.tsx",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_sidebar_sidebarprops",
+      "label": "SidebarProps",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_sidebar_navitem",
+      "label": "NavItem",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L21",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_sidebar_nav_items",
+      "label": "NAV_ITEMS",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_sidebar_sidebar",
+      "label": "Sidebar()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L37",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_topnav",
+      "label": "TopNav.tsx",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/TopNav.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_topnav_topnavprops",
+      "label": "TopNavProps",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/TopNav.tsx",
+      "source_location": "L5",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_topnav_screen_titles",
+      "label": "SCREEN_TITLES",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/TopNav.tsx",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_topnav_topnav",
+      "label": "TopNav()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/TopNav.tsx",
+      "source_location": "L23",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_historyscreen",
+      "label": "HistoryScreen.tsx",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/HistoryScreen.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_historyscreen_historyscreenprops",
+      "label": "HistoryScreenProps",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/HistoryScreen.tsx",
+      "source_location": "L15",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_historyscreen_historyscreen",
+      "label": "HistoryScreen()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/HistoryScreen.tsx",
+      "source_location": "L21",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_overviewscreen",
+      "label": "OverviewScreen.tsx",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/OverviewScreen.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_overviewscreen_overviewscreenprops",
+      "label": "OverviewScreenProps",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/OverviewScreen.tsx",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_overviewscreen_overviewscreen",
+      "label": "OverviewScreen()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/OverviewScreen.tsx",
+      "source_location": "L17",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_plannerscreen",
+      "label": "PlannerScreen.tsx",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_plannerscreen_plannerscreenprops",
+      "label": "PlannerScreenProps",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_plannerscreen_failure_types",
+      "label": "FAILURE_TYPES",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_plannerscreen_fallback_strategies",
+      "label": "FALLBACK_STRATEGIES",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_plannerscreen_plannerscreen",
+      "label": "PlannerScreen()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L38",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_settingsscreen",
+      "label": "SettingsScreen.tsx",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_settingsscreen_settingsscreenprops",
+      "label": "SettingsScreenProps",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_settingsscreen_settingsscreen",
+      "label": "SettingsScreen()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L21",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_simulatorscreen",
+      "label": "SimulatorScreen.tsx",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_simulatorscreen_simulatorscreenprops",
+      "label": "SimulatorScreenProps",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L15",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_simulatorscreen_scenariotype",
+      "label": "ScenarioType",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L19",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_simulatorscreen_default_stages",
+      "label": "DEFAULT_STAGES",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_simulatorscreen_simulatorscreen",
+      "label": "SimulatorScreen()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L59",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_skillsscreen",
+      "label": "SkillsScreen.tsx",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/SkillsScreen.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_skillsscreen_skillsscreenprops",
+      "label": "SkillsScreenProps",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/SkillsScreen.tsx",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_components_screens_skillsscreen_skillsscreen",
+      "label": "SkillsScreen()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/components/screens/SkillsScreen.tsx",
+      "source_location": "L17",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_data_mockdata",
+      "label": "mockData.ts",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_data_mockdata_initial_skill_data",
+      "label": "INITIAL_SKILL_DATA",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_data_mockdata_initial_history_records",
+      "label": "INITIAL_HISTORY_RECORDS",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L70",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_data_mockdata_generaterecoveryplan",
+      "label": "generateRecoveryPlan()",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L128",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_main",
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/main.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types",
+      "label": "types.ts",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types_screenid",
+      "label": "ScreenId",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L1",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types_failuretype",
+      "label": "FailureType",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L3",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types_fallbackstrategy",
+      "label": "FallbackStrategy",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L11",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types_recoveryplanconfig",
+      "label": "RecoveryPlanConfig",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L20",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types_recoveryplan",
+      "label": "RecoveryPlan",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L29",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types_pipelinestageid",
+      "label": "PipelineStageId",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L75",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types_stagestatus",
+      "label": "StageStatus",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L77",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types_pipelinestage",
+      "label": "PipelineStage",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L79",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types_simulatorlog",
+      "label": "SimulatorLog",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L87",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types_historyrecord",
+      "label": "HistoryRecord",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L95",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types_agentskilldata",
+      "label": "AgentSkillData",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L107",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_src_types_settingsconfig",
+      "label": "SettingsConfig",
+      "file_type": "code",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L123",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig",
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_target",
+      "label": "target",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_experimentaldecorators",
+      "label": "experimentalDecorators",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_usedefineforclassfields",
+      "label": "useDefineForClassFields",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_module",
+      "label": "module",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_types",
+      "label": "types",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_lib",
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_skiplibcheck",
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_moduleresolution",
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_isolatedmodules",
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_moduledetection",
+      "label": "moduleDetection",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_allowjs",
+      "label": "allowJs",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_jsx",
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_paths",
+      "label": "paths",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_allowimportingtsextensions",
+      "label": "allowImportingTsExtensions",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_compileroptions_noemit",
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_tsconfig_exclude",
+      "label": "exclude",
+      "file_type": "code",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "fallbackforge_vite_config",
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "FallbackForge/vite.config.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "test_test_recovery",
+      "label": "test_recovery.py",
+      "file_type": "code",
+      "source_file": "test/test_recovery.py",
+      "source_location": null,
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "backend_main",
+      "target": "backend_recovery",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_ollama_client",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "fastapi_middleware_cors",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_recoveryrequest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_recoveryrequest",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_recoveryresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_recoveryresponse",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_load_skill",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_root",
+      "target": "get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_health",
+      "target": "get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_health",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_ollama_status",
+      "target": "get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_ollama_status",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_ollama_test",
+      "target": "post",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_ollama_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_create_recovery_plan",
+      "target": "post",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_create_recovery_plan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_create_recovery_plan",
+      "target": "backend_main_recoveryrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_create_recovery_plan",
+      "target": "backend_main_load_skill",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L131",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_create_recovery_plan",
+      "target": "backend_main_recoveryresponse",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L191",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_rationale_79",
+      "target": "backend_main_load_skill",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client",
+      "target": "requests",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client",
+      "target": "dotenv",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client",
+      "target": "backend_ollama_client_ollamaconfigurationerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client_ollamaconfigurationerror",
+      "target": "runtimeerror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client",
+      "target": "backend_ollama_client_ollamarequesterror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client_ollamarequesterror",
+      "target": "runtimeerror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client",
+      "target": "backend_ollama_client_is_ollama_configured",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client",
+      "target": "backend_ollama_client_request_chat",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client",
+      "target": "backend_ollama_client_generate_recovery_plan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client",
+      "target": "backend_ollama_client_test_ollama_connection",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client_request_chat",
+      "target": "backend_ollama_client_is_ollama_configured",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client_request_chat",
+      "target": "backend_ollama_client_ollamaconfigurationerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client_request_chat",
+      "target": "backend_ollama_client_ollamarequesterror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client_generate_recovery_plan",
+      "target": "backend_ollama_client_request_chat",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client_test_ollama_connection",
+      "target": "backend_ollama_client_request_chat",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client_rationale_16",
+      "target": "backend_ollama_client_ollamaconfigurationerror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client_rationale_20",
+      "target": "backend_ollama_client_ollamarequesterror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_recovery",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/recovery.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_recovery",
+      "target": "backend_recovery_simulate_recovery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/recovery.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_recovery_simulate_recovery",
+      "target": "failuretype",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/recovery.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_recovery_simulate_recovery",
+      "target": "fallbackstrategy",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/recovery.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_recovery_rationale_26",
+      "target": "backend_recovery_simulate_recovery",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/recovery.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "fallbackforge_package_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "fallbackforge_package_private",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "fallbackforge_package_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "fallbackforge_package_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "fallbackforge_package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_scripts",
+      "target": "fallbackforge_package_scripts_dev",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_scripts",
+      "target": "fallbackforge_package_scripts_build",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_scripts",
+      "target": "fallbackforge_package_scripts_preview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_scripts",
+      "target": "fallbackforge_package_scripts_clean",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_scripts",
+      "target": "fallbackforge_package_scripts_lint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "fallbackforge_package_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_dependencies",
+      "target": "fallbackforge_package_dependencies_google_genai",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_google_genai",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_dependencies",
+      "target": "fallbackforge_package_dependencies_tailwindcss_vite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_tailwindcss_vite",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_dependencies",
+      "target": "fallbackforge_package_dependencies_vitejs_plugin_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_vitejs_plugin_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_dependencies",
+      "target": "fallbackforge_package_dependencies_lucide_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_lucide_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_dependencies",
+      "target": "fallbackforge_package_dependencies_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_dependencies",
+      "target": "fallbackforge_package_dependencies_react_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_react_dom",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_dependencies",
+      "target": "fallbackforge_package_dependencies_vite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_vite",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_dependencies",
+      "target": "fallbackforge_package_dependencies_express",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_express",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_dependencies",
+      "target": "fallbackforge_package_dependencies_dotenv",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_dotenv",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_dependencies",
+      "target": "fallbackforge_package_dependencies_motion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_motion",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "fallbackforge_package_devdependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_devdependencies",
+      "target": "fallbackforge_package_devdependencies_types_node",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_types_node",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_devdependencies",
+      "target": "fallbackforge_package_devdependencies_types_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_types_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_devdependencies",
+      "target": "fallbackforge_package_devdependencies_types_react_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_types_react_dom",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_devdependencies",
+      "target": "fallbackforge_package_devdependencies_autoprefixer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_autoprefixer",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_devdependencies",
+      "target": "fallbackforge_package_devdependencies_esbuild",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_esbuild",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_devdependencies",
+      "target": "fallbackforge_package_devdependencies_tailwindcss",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_tailwindcss",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_devdependencies",
+      "target": "fallbackforge_package_devdependencies_tsx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_tsx",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_devdependencies",
+      "target": "fallbackforge_package_devdependencies_typescript",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_typescript",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package_devdependencies",
+      "target": "fallbackforge_package_devdependencies_types_express",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_package",
+      "target": "ref_types_express",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_sidebar",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_sidebar_sidebar",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_topnav",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_topnav_topnav",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_screens_overviewscreen",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_screens_overviewscreen_overviewscreen",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_screens_plannerscreen",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_screens_plannerscreen_plannerscreen",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_screens_simulatorscreen",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_screens_simulatorscreen_simulatorscreen",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_screens_historyscreen",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_screens_historyscreen_historyscreen",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_screens_skillsscreen",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_screens_skillsscreen_skillsscreen",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_screens_settingsscreen",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_components_screens_settingsscreen_settingsscreen",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_types_historyrecord",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_types_recoveryplan",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_types_recoveryplanconfig",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_types_screenid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_types_settingsconfig",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_api_apifailuretype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_api_apifallbackstrategy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_api_recoveryplanresponse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_api_generaterecoveryplan",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_data_mockdata",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_data_mockdata_initial_history_records",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_data_mockdata_initial_skill_data",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_data_mockdata_generaterecoveryplan",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_app_default_config",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_app_api_failure_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_app_api_fallback_strategies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app",
+      "target": "fallbackforge_src_app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_apifailuretype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_apifallbackstrategy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_recoveryplanrequest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_recoverysimulationevent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_recoveryplanresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_ollamastatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_ollamatestresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_fetchbackend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_isrecoveryplanresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_readapierror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_getollamastatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L143",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_testollamaconnection",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L149",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api",
+      "target": "fallbackforge_src_api_generaterecoveryplan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api_getollamastatus",
+      "target": "fallbackforge_src_api_fetchbackend",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L144",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api_getollamastatus",
+      "target": "fallbackforge_src_api_readapierror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L145",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api_testollamaconnection",
+      "target": "fallbackforge_src_api_fetchbackend",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L150",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api_testollamaconnection",
+      "target": "fallbackforge_src_api_readapierror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L153",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api_generaterecoveryplan",
+      "target": "fallbackforge_src_api_fetchbackend",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L160",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api_generaterecoveryplan",
+      "target": "fallbackforge_src_api_readapierror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L167",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_api_generaterecoveryplan",
+      "target": "fallbackforge_src_api_isrecoveryplanresponse",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/api.ts",
+      "source_location": "L171",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_sidebar",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_sidebar",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_sidebar",
+      "target": "fallbackforge_src_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_sidebar",
+      "target": "fallbackforge_src_types_screenid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_sidebar",
+      "target": "fallbackforge_src_components_sidebar_sidebarprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_sidebar",
+      "target": "fallbackforge_src_components_sidebar_navitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_sidebar",
+      "target": "fallbackforge_src_components_sidebar_nav_items",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_sidebar",
+      "target": "fallbackforge_src_components_sidebar_sidebar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_topnav",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/TopNav.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_topnav",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/TopNav.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_topnav",
+      "target": "fallbackforge_src_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/TopNav.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_topnav",
+      "target": "fallbackforge_src_types_screenid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/TopNav.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_topnav",
+      "target": "fallbackforge_src_components_topnav_topnavprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/TopNav.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_topnav",
+      "target": "fallbackforge_src_components_topnav_screen_titles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/TopNav.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_topnav",
+      "target": "fallbackforge_src_components_topnav_topnav",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/TopNav.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_historyscreen",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/HistoryScreen.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_historyscreen",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/HistoryScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_historyscreen",
+      "target": "fallbackforge_src_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/HistoryScreen.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_historyscreen",
+      "target": "fallbackforge_src_types_historyrecord",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/HistoryScreen.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_historyscreen",
+      "target": "fallbackforge_src_components_screens_historyscreen_historyscreenprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/HistoryScreen.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_historyscreen",
+      "target": "fallbackforge_src_components_screens_historyscreen_historyscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/HistoryScreen.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_overviewscreen",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/OverviewScreen.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_overviewscreen",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/OverviewScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_overviewscreen",
+      "target": "fallbackforge_src_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/OverviewScreen.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_overviewscreen",
+      "target": "fallbackforge_src_types_screenid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/OverviewScreen.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_overviewscreen",
+      "target": "fallbackforge_src_components_screens_overviewscreen_overviewscreenprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/OverviewScreen.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_overviewscreen",
+      "target": "fallbackforge_src_components_screens_overviewscreen_overviewscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/OverviewScreen.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "fallbackforge_src_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "fallbackforge_src_types_failuretype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "fallbackforge_src_types_fallbackstrategy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "fallbackforge_src_types_recoveryplan",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "fallbackforge_src_types_recoveryplanconfig",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "fallbackforge_src_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "fallbackforge_src_api_recoveryplanresponse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "fallbackforge_src_components_screens_plannerscreen_plannerscreenprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "fallbackforge_src_components_screens_plannerscreen_failure_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "fallbackforge_src_components_screens_plannerscreen_fallback_strategies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen",
+      "target": "fallbackforge_src_components_screens_plannerscreen_plannerscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen",
+      "target": "fallbackforge_src_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen",
+      "target": "fallbackforge_src_types_settingsconfig",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen",
+      "target": "fallbackforge_src_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen",
+      "target": "fallbackforge_src_api_getollamastatus",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen",
+      "target": "fallbackforge_src_api_ollamastatus",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen",
+      "target": "fallbackforge_src_api_testollamaconnection",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen",
+      "target": "fallbackforge_src_components_screens_settingsscreen_settingsscreenprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen",
+      "target": "fallbackforge_src_components_screens_settingsscreen_settingsscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_simulatorscreen",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_simulatorscreen",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_simulatorscreen",
+      "target": "fallbackforge_src_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_simulatorscreen",
+      "target": "fallbackforge_src_types_pipelinestage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_simulatorscreen",
+      "target": "fallbackforge_src_types_pipelinestageid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_simulatorscreen",
+      "target": "fallbackforge_src_types_simulatorlog",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_simulatorscreen",
+      "target": "fallbackforge_src_components_screens_simulatorscreen_simulatorscreenprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_simulatorscreen",
+      "target": "fallbackforge_src_components_screens_simulatorscreen_scenariotype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_simulatorscreen",
+      "target": "fallbackforge_src_components_screens_simulatorscreen_default_stages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_simulatorscreen",
+      "target": "fallbackforge_src_components_screens_simulatorscreen_simulatorscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SimulatorScreen.tsx",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_skillsscreen",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SkillsScreen.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_skillsscreen",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SkillsScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_skillsscreen",
+      "target": "fallbackforge_src_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SkillsScreen.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_skillsscreen",
+      "target": "fallbackforge_src_types_agentskilldata",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SkillsScreen.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_skillsscreen",
+      "target": "fallbackforge_src_components_screens_skillsscreen_skillsscreenprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SkillsScreen.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_skillsscreen",
+      "target": "fallbackforge_src_components_screens_skillsscreen_skillsscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SkillsScreen.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_data_mockdata",
+      "target": "fallbackforge_src_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_data_mockdata",
+      "target": "fallbackforge_src_types_agentskilldata",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_data_mockdata",
+      "target": "fallbackforge_src_types_failuretype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_data_mockdata",
+      "target": "fallbackforge_src_types_fallbackstrategy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_data_mockdata",
+      "target": "fallbackforge_src_types_historyrecord",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_data_mockdata",
+      "target": "fallbackforge_src_types_recoveryplan",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_data_mockdata",
+      "target": "fallbackforge_src_types_recoveryplanconfig",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_data_mockdata",
+      "target": "fallbackforge_src_data_mockdata_initial_skill_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_data_mockdata",
+      "target": "fallbackforge_src_data_mockdata_initial_history_records",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_data_mockdata",
+      "target": "fallbackforge_src_data_mockdata_generaterecoveryplan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/data/mockData.ts",
+      "source_location": "L128",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_main",
+      "target": "ref_react_dom",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/main.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_main",
+      "target": "fallbackforge_src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/main.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_main",
+      "target": "fallbackforge_src_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_types",
+      "target": "fallbackforge_src_types_screenid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_types",
+      "target": "fallbackforge_src_types_failuretype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_types",
+      "target": "fallbackforge_src_types_fallbackstrategy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_types",
+      "target": "fallbackforge_src_types_recoveryplanconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_types",
+      "target": "fallbackforge_src_types_recoveryplan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_types",
+      "target": "fallbackforge_src_types_pipelinestageid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_types",
+      "target": "fallbackforge_src_types_stagestatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_types",
+      "target": "fallbackforge_src_types_pipelinestage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_types",
+      "target": "fallbackforge_src_types_simulatorlog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_types",
+      "target": "fallbackforge_src_types_historyrecord",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_types",
+      "target": "fallbackforge_src_types_agentskilldata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_types",
+      "target": "fallbackforge_src_types_settingsconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/types.ts",
+      "source_location": "L123",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig",
+      "target": "fallbackforge_tsconfig_compileroptions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_target",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_experimentaldecorators",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_usedefineforclassfields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_module",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_types",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_lib",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_skiplibcheck",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_moduleresolution",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_isolatedmodules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_moduledetection",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_allowjs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_jsx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_paths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_allowimportingtsextensions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig_compileroptions",
+      "target": "fallbackforge_tsconfig_compileroptions_noemit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_tsconfig",
+      "target": "fallbackforge_tsconfig_exclude",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/tsconfig.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_vite_config",
+      "target": "ref_tailwindcss_vite",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/vite.config.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_vite_config",
+      "target": "ref_vitejs_plugin_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/vite.config.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_vite_config",
+      "target": "ref_path",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/vite.config.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_vite_config",
+      "target": "ref_vite",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/vite.config.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_main",
+      "target": "fallbackforge_src_app_app",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/main.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_recovery_simulate_recovery",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_ollama_client_ollamaconfigurationerror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_ollama_client_ollamarequesterror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_ollama_client_generate_recovery_plan",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_ollama_client_is_ollama_configured",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_ollama_client_test_ollama_connection",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Backend/main.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app_app",
+      "target": "fallbackforge_src_data_mockdata_generaterecoveryplan",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app_app",
+      "target": "fallbackforge_src_api_generaterecoveryplan",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen_settingsscreen",
+      "target": "fallbackforge_src_api_getollamastatus",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen_settingsscreen",
+      "target": "fallbackforge_src_api_testollamaconnection",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_sidebar_sidebarprops",
+      "target": "fallbackforge_src_types_screenid",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_sidebar_navitem",
+      "target": "fallbackforge_src_types_screenid",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/Sidebar.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_topnav_topnavprops",
+      "target": "fallbackforge_src_types_screenid",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/TopNav.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_historyscreen_historyscreenprops",
+      "target": "fallbackforge_src_types_historyrecord",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/HistoryScreen.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_overviewscreen_overviewscreenprops",
+      "target": "fallbackforge_src_types_screenid",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/OverviewScreen.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen_plannerscreenprops",
+      "target": "fallbackforge_src_types_recoveryplanconfig",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen_plannerscreenprops",
+      "target": "fallbackforge_src_types_recoveryplan",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_plannerscreen_plannerscreenprops",
+      "target": "fallbackforge_src_api_recoveryplanresponse",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/PlannerScreen.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_settingsscreen_settingsscreenprops",
+      "target": "fallbackforge_src_types_settingsconfig",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SettingsScreen.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_components_screens_skillsscreen_skillsscreenprops",
+      "target": "fallbackforge_src_types_agentskilldata",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "FallbackForge/src/components/screens/SkillsScreen.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_ollama_test",
+      "target": "backend_ollama_client_ollamaconfigurationerror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "Backend/main.py",
+      "source_location": "L117",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_create_recovery_plan",
+      "target": "backend_ollama_client_ollamaconfigurationerror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "Backend/main.py",
+      "source_location": "L160",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_ollama_test",
+      "target": "backend_ollama_client_ollamarequesterror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "Backend/main.py",
+      "source_location": "L119",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_create_recovery_plan",
+      "target": "backend_ollama_client_ollamarequesterror",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "Backend/main.py",
+      "source_location": "L160",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_ollama_status",
+      "target": "backend_ollama_client_is_ollama_configured",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Backend/main.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_ollama_test",
+      "target": "backend_ollama_client_test_ollama_connection",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Backend/main.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_create_recovery_plan",
+      "target": "backend_ollama_client_generate_recovery_plan",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Backend/main.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_create_recovery_plan",
+      "target": "backend_recovery_simulate_recovery",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Backend/main.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app_app",
+      "target": "fallbackforge_src_components_sidebar_sidebar",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L181",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app_app",
+      "target": "fallbackforge_src_components_topnav_topnav",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L191",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app_app",
+      "target": "fallbackforge_src_components_screens_overviewscreen_overviewscreen",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L203",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app_app",
+      "target": "fallbackforge_src_components_screens_plannerscreen_plannerscreen",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L207",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app_app",
+      "target": "fallbackforge_src_components_screens_simulatorscreen_simulatorscreen",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L220",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app_app",
+      "target": "fallbackforge_src_components_screens_historyscreen_historyscreen",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L224",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app_app",
+      "target": "fallbackforge_src_components_screens_skillsscreen_skillsscreen",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L232",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "fallbackforge_src_app_app",
+      "target": "fallbackforge_src_components_screens_settingsscreen_settingsscreen",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "FallbackForge/src/App.tsx",
+      "source_location": "L236",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_ollama_client_request_chat",
+      "target": "requests",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Backend/ollama_client.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "failed_sources": [],
+  "extracted_sources": [
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\Backend\\__init__.py",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\Backend\\main.py",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\Backend\\ollama_client.py",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\Backend\\recovery.py",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\metadata.json",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\package.json",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\App.tsx",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\api.ts",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\components\\Sidebar.tsx",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\components\\TopNav.tsx",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\components\\screens\\HistoryScreen.tsx",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\components\\screens\\OverviewScreen.tsx",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\components\\screens\\PlannerScreen.tsx",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\components\\screens\\SettingsScreen.tsx",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\components\\screens\\SimulatorScreen.tsx",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\components\\screens\\SkillsScreen.tsx",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\data\\mockData.ts",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\main.tsx",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\src\\types.ts",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\tsconfig.json",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\FallbackForge\\vite.config.ts",
+    "C:\\Users\\Admin\\OneDrive\\Documents\\fallbackforge\\test\\test_recovery.py"
+  ]
+}
